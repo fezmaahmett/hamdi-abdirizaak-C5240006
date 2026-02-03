@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Playlist Organizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🎵 Music Playlist Organizer</h1>
+  <nav>
+    <ul>
+      <li><a href="#" data-section="home">Home</a></li>
+      <li><a href="#" data-section="playlist">Playlists</a></li>
+      <li><a href="#" data-section="about">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Home -->
+<section id="home" class="section active">
+  <h2>Welcome</h2>
+  <p>
+    This project allows users to search and play music using JavaScript.
+    It demonstrates DOM manipulation, event handling, and multimedia usage.
+  </p>
+</section>
+
+<!-- Playlist -->
+<section id="playlist" class="section">
+  <h2>Search & Play Music</h2>
+
+  <input type="text" id="searchSong" placeholder="Search music name...">
+  <button id="searchBtn">Search</button>
+
+  <ul id="songResults"></ul>
+
+  <audio id="audioPlayer" controls></audio>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+  <h2>About Project</h2>
+  <p><strong>Name:</strong> Hamdi Abdirisak Mahamud</p>
+  <p><strong>ID:</strong> C5240006</p>
+  <p><strong>Teacher:</strong> Jamila</p>
+  <p><strong>Class:</strong> CM241</p>
+
+  <p>
+    Music Playlist Organizer is a frontend web application built using
+    HTML, CSS, and JavaScript. Users can search and play music dynamically.
+  </p>
+</section>
+
+<footer>
+  <p>©hamdi abdirizak C5240006</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
